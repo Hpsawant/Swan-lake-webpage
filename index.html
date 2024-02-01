@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing:border-box;
+            
+        }
+        section
+        {
+            width: 100%;
+            height: 400px;
+            background-color: black;
+            color: white;
+        }
+        .header{
+            display:flex;
+        
+        }
+        .head1{
+            background-image: url(images/swakkkk.png);
+            background-repeat: no-repeat;
+            padding-left: 45px;
+            height: 70px;
+            width:50% ;
+            margin-left: 10%;
+            margin-top: 15px;
+        }
+        .head2{
+            background-image: url(images/mailbl.png.png);
+            background-repeat: no-repeat;
+            padding-left: 45px;
+            background-position: 5px 5px;
+            height:50px;
+            width: 10%;
+            margin-top: 15px;
+        }
+        .head3{
+            background-image: url(images/callbl.png.png);
+            background-repeat: no-repeat;
+            padding-left: 45px;
+            background-position: 5px 5px;
+            height: 50px;
+            width: 8%;
+            margin-left: 10%;
+            margin-top: 15px;
+        }
+        nav{
+            width: 80%;
+            background-color: white;
+            padding: 10px;
+            font-size: 20px;
+            margin: 0 auto;
+            
+
+        }
+        .container
+        {
+            position: absolute;
+            text-align: center;
+            margin-left: 1055px;
+            top:20%;
+            max-width: 300px;
+            background-color: whitesmoke;
+            /*margin: 20px;*/
+            padding: 16px;
+            color: black;
+        
+            
+        }
+        nav a{
+            padding: 10px;
+            text-decoration:none;
+            font-size: 20px;
+        }
+        input[type=email],input[type=phone],input[type=name]
+        {
+            width: 100%;
+            padding: 10px;
+            margin: 3px 0 22px 0;
+            border: 0px;
+            background-color:white;
+            font-size: 16px;
+        }
+        input[type=email],input[type=phone],input[type=name]:focus
+        {
+            background-color: white;
+            outline: none;
+        }
+        input[type=name]
+        {
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            background-color: white;
+            padding-left: 45px; 
+        }
+        input[type=email]
+        {
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            background-color: white;
+            padding-left: 45px;
+        }
+        input[type=phone]
+        {
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            background-color: white;
+            padding-left: 45px;
+        }
+        button
+        {
+            background-color: blue;
+            color: white;
+            padding: 8px 10px;
+            width: 40%;
+            border: 0;
+            cursor: pointer;
+            font-size: 15px;
+            opacity: 0.9;
+            float: right;
+        }
+        nav input[type=submit]
+        {
+            margin-left: 600px;
+        }
+        input[type=button]{
+            padding: 10px;
+            background-color: blue;
+            color: white;
+        }
+        input[type=submit]{
+            padding: 10px;
+            background-color: blue;
+            color: white;
+            /* float: right; */
+        }
+        .info{
+            margin-left: 140px;
+            margin-top: 200px;
+            font-size: 30px;
+            padding: 20px;
+            color:blue;
+        }
+        .player
+        {
+            text-align: center;
+            font-size: 12px;
+            color: black;
+        }
+        .bot
+        {
+            background-image: url(images/error.png.png);
+            background-repeat: no-repeat;
+            padding-left: 15px;
+            background-size: 13px;
+            background-position: left;
+           
+            color: black;
+            text-align: left;
+            font-size: 10px;
+            line-height: 10px;
+            margin-top: 12px;
+        }
+        .middle{
+            background-image: url(images/task8.jpg);
+            width: 100%;
+            height: 800px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        .cre
+       {
+        color: white;
+        font-size: 15px;
+       }
+       .cre1
+       {
+        color: white;
+       }
+        .about{
+            text-align: center;
+            padding-top: 30px;
+            color: black;
+         
+        }
+      .A01{
+        position: absolute;
+        left: 70px;
+        top: 1100px;
+      }
+      .A02{
+        position: absolute;
+        left: 450px;
+        top: 1100px;
+      }
+      .A03{
+        position: absolute;
+        left: 800px;
+        top: 1100px;
+      }
+      .A04{
+        position: absolute;
+        left: 1200px;
+        top: 1100px;
+      }
+      
+      .footer{
+      
+            width: 100%;
+            height: 100px;
+            background-color: black;
+            color: white;
+            margin-top: 300px;
+      }
+      .f1{
+        position: absolute;
+        left: 120px;
+        top: 1380px; ;
+        font-size: 40px;
+        color: blue;
+      }
+      .f2{
+        position: absolute;
+        left: 530px;
+        top:1380px;
+        font-size: 40px;
+        color: blue;
+      }
+      .f3{
+        position: absolute;
+        left: 900px;
+        top:1380px;
+        font-size: 40px;
+        color: blue;
+      }
+      .f4{
+        position: absolute;
+        left: 1300px;
+        top:1380px;
+        font-size: 40px;
+        color: blue;
+      }
+    
+    </style>
+</head>
+<body>
+    <section>
+    <header>
+        <div class="header">
+        <div class="head1">
+            <h2 style="color: blue;">swan lake</h2>
+            <p>unbounce landing page</p>
+        </div>
+        <div class="head2">
+            <a>countact us:</a>
+            <a>mail@example.com</a>
+        </div>
+        <div class="head3">
+            <a>call us:</a>
+            <a>+123457891</a>
+        </div>
+        </div>
+    </header>
+    <section class="middle">
+                       
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About us</a>
+            <a href="#">Services</a>
+            <a href="#">Pricing Table</a>
+             <input type="submit" value="Get A Quato">
+        </nav>
+      <!-- <article > -->
+       <div class="middel_set">                    
+         <div class="info">
+            <div class="cre">
+                <p>Creative Unbounce Loading Page..</p>
+            </div>
+            <div class="cre1">
+                <h3>Let's get started with</h3>
+            </div>
+            <h3 style="color: blue;">Swan Lake Template</h3>
+            <input type="button" value="Explore More">
+        </div>
+      <!-- </artical> -->
+
+               
+                <form action="" method="post" class="container">
+                    <h2 style="color: black;">Register Now</h2>
+                    <div class="player">
+                        <p>Take Your Free Trial</p>
+                    </div>
+                
+                    <label for="name"><b></b></label>
+                    <input type="name" name="name" id="name" placeholder="Your Name" autocomplete="off">
+
+                    <label for="email"><b></b></label>
+                    <input type="email" name="email" id="email" placeholder="your Email" autocomplete="off">
+        
+                    <label for="phone"><b></b></label>
+                    <input type="phone" name="phone" id="phone" placeholder="Your Phone" autocomplete="off">
+        
+                    <button value="submit">Get A Quote</button>
+
+                    <div class="bot">
+                        <p>We will never share your personal Info</p>
+                    </div>
+        
+                </form>
+</section>
+  
+         <div class="about">
+        
+            <h1><a style="color: blue;">ABOUT</a> SWAN LAKE</h1><br><br>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat sequi saepe deleniti esse repudiandae optio non, cumque, in iste,<br> explicabo maxime consequuntur voluptates tempora doloribus illum fugit neque iusto? Maiores!</p>
+           <br><br>  
+       
+       
+        <div class="A01">
+
+         <h3 style="color: blue;" >01</h3><br>
+         <h3>THE COMPANY </h3><br>
+            <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Unde qui neque labore <br>saepe assumenda minus voluptatum? </p>
+           <br> <a href="#" style="color: blue;text-decoration: none;">Read More...</more></a>
+        </div>
+
+        <div class="A02">
+            <h3 style="color: blue;">02</h3><br>
+            <h3>OUR VISION </h3><br>
+            <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Unde qui neque labore <br>saepe assumenda minus voluptatum? </p>
+           <br> <a href="#" style="color: blue; text-decoration: none;">Read More...</a>
+        </div>
+        <div class="A03">
+            <h3 style="color: blue;" >03</h3><br>
+            <h3>OUR MISSION  </h3><br>
+            <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Unde qui neque labore <br>saepe assumenda minus voluptatum? </p>
+           <br> <a href="#" style="color: blue; text-decoration: none;">Read More...</a>
+        </div>
+        <div class="A04">
+            <h3 style="color: blue;">04</h3><br>
+            <h3>OUR PROCIESS </h3><br>
+            <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Unde qui neque labore <br>saepe assumenda minus voluptatum? </p>
+           <br> <a href="#" style="color: blue; text-decoration: none;">Read More...</a>
+        </div>
+ 
+    </div>
+    
+ 
+    <footer class="footer">
+        <div class="f1">
+            <p>246</p>
+            <p style="font-size: 13px;color: aliceblue;">Clients</p>
+        </div>
+        <div class="f2">
+            <p>390</p>
+            <p style="font-size: 13px;color: aliceblue;">Coffee</p>
+        </div>
+        <div class="f3">
+            <p>56</p>
+            <p style="font-size: 13px;color: aliceblue;">Awards</p>
+        </div>
+        <div class="f4">
+            <p>470</p>
+            <p style="font-size: 13px;color: aliceblue;">Brands</p>
+        </div>
+    </footer>
+
+</section> 
+
+</body>
+</html>
